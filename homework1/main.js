@@ -19,7 +19,6 @@ alert(distance(x1, y1, x2, y2));
 // Дано 10 целых чисел. Вычислите их сумму. Напишите программу, использующую наименьшее число переменных.
 
 var number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].reduce(function(a, b) {
-  console.log(d);
   return a + b
 });
 alert(number);
